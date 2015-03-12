@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Credentials Vocabulary</title>
+    <meta charset="utf-8">
+    
+  <script src='http://www.w3.org/Tools/respec/respec-w3c-common' async class='remove'></script>
+  <script class='remove'>
+    var respecConfig = {
+        shortName:  "credentials-vocabulary",
+        specStatus: 'CG-DRAFT',
+        edDraftURI: "http://specification.openbadges.org/vocabulary.html",
+              editors: [
+              {   name:       "First Editor",
+                  url:        "http://example.com",
+                  company:    "Company",
+                  companyURL: "http://company.com",
+                  mailto:     "address@example.com"
+              }
+        ],
+        publishDate:  "2015-03-12",
+        wg:           "Credentials Community Group",
+        wgURI:        "http://www.w3.org/community/credentials/",
+        wgPublicList: "public-credentials",
+        wgPatentURI: "" //,
+        // doRDFa: false
+    };
+  </script>
+
+  <link rel="stylesheet" href="https://www.w3.org/StyleSheets/TR/W3C-ED"><!--[if lt IE 9]><script src='https://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]-->
+  </head>
+
+  <body class="h-entry" role="document" id="respecDocument">
+
+    <section id="abstract">
+      <p>
+        This document describes a number of classes and properties that can be used to express authenticable claims by issuers about recipients in the form of Linked Data credentials. Each credential makes claims about a recipient’s qualifications or qualities. These claims represent either achievement of a particular defined benchmark as assessed by the issuer, or one or more properties of the recipient. When recorded and transmitted according to this specification, credentials are possible to be validated as authentic expressions of issuer’s trust in credential recipients. 
+      </p>
+
+    </section>
+
+
+    <section id="sotd">
+        
+       <p>
+        This is an experimental document that is being actively deveveloped by the 
+        W3C <a href="https://web-payments.org/">Credentials Community Group</a>.
+      </p>
+
+    </section>
+
+    
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        This document describes a number of classes and properties that can be used to express authenticable claims by issuers about recipients in the form of Linked Data credentials. Each credential makes claims about a recipient’s qualifications or qualities. These claims represent either achievement of a particular defined benchmark as assessed by the issuer, or one or more properties of the recipient. When recorded and transmitted according to this specification, credentials are possible to be validated as authentic expressions of issuer’s trust in credential recipients. 
+      </p>
+
+      <p>
+        The terms defined here serve use cases identified by the Credentials Community Group
+      </p>
+
+      <p class="issue">
+        This entire document is a work in progress in very early draft stage. It is expected to evolve considerably.
+      </p>
+    </section>
+    
+
+    <section>
+      <h2>Glossary</h2>
+
+      <section>
+        <h3>Credential</h3>
+        <p>
+          A claim from an entity(s) that denotes qualification, achievement, quality, or other piece of information about an entity’s background such as a name, government ID, payment provider, home address, or university degree. 
+        </p>
+      </section> 
+
+      <section>
+        <h3>Issuer</h3>
+        <p>
+          An entity that creates and assigns credentials to recipients.
+        </p>
+      </section>
+
+      <section>
+        <h3>Recipient</h3>
+        <p>
+          Also known as the credentialee, an entity that is in control of a particular credential; who is typically both the primary subject of the information in a credential and the entity that initiates its transmission to a consumer.
+        </p>
+      </section> 
+
+      <section>
+        <h3>Consumer</h3>
+        <p>
+          An entity that is the end user of a credential. Consumers read, validate, and take action based on credentials.
+        </p>
+      </section> 
+
+      <section>
+        <h3>Requestor</h3>
+        <p>
+          An entity that requests a credential from a recipient.
+        </p>
+      </section> 
+
+      <section>
+        <h3>User Agent</h3>
+        <p>
+          A program, such as a browser or other Web client, that mediates the communication between parties on behalf of an issuer, recipient or consumer, such as the process of negotiating the response to a requestor’s request for a particular type of credential on behalf or a recipient.
+        </p>
+      </section>
+
+      <section>
+        <h3>Credential Management Service</h3>
+        <p>
+          A program, such as a credential storage vault, backpack, or personal credential wallet, that stores and protects access to an credentialee's credentials and can, on request, provide secure access to Requestors.  The software process involved is known as the Credential Agent. 
+        </p>
+      </section>
+
+      <section>
+        <h3>Credential Agent</h3>
+        <p>
+          A program that mediates secure access of a credentialee’s credentials for a requestor on behalf of the credential management service.
+        </p>
+      </section>
+
+    </section>
+
+
+    <!-- ####################### CLASSES ####################### -->
+    <section>
+      <h2>Classes</h2>
+
+      <section id="" about="https://w3id.org/credentials/#"
+        typeof="rdfs:Class">
+        <h3><span property="rdfs:label"></span></h3>
+          <p property="rdfs:comment">
+
+          </p>
+          <dl>
+            <dt>Status</dt>
+            <dd property="vs:term_status">unstable</dd>
+            <dt>Parent Class</dt>
+            <dd><a property="rdfs:subclassOf" href="http://www.w3.org/2000/01/rdf-schema#Class">Class</a></dd>
+            <dt>Common Properties</dt>
+            <dd></dd>
+          </dl>
+          <p>
+            The following example...
+          </p>
+          <pre class="example prettyprint language-jsonld">
+
+        </pre>
+      </section>
+
+      <section id="" about="https://w3id.org/credentials/#"
+        typeof="rdfs:Class">
+        <h3><span property="rdfs:label"></span></h3>
+          <p property="rdfs:comment">
+
+          </p>
+          <dl>
+            <dt>Status</dt>
+            <dd property="vs:term_status">unstable</dd>
+            <dt>Parent Class</dt>
+            <dd><a property="rdfs:subclassOf" href="http://www.w3.org/2000/01/rdf-schema#Class">Class</a></dd>
+            <dt>Common Properties</dt>
+            <dd></dd>
+          </dl>
+          <p>
+            The following example...
+          </p>
+          <pre class="example prettyprint language-jsonld">
+
+        </pre>
+      </section>
+        
+    </section>
+
+    <!-- ###################### PROPERTIES ##################### -->
+    <section>
+      <h2>Properties</h2>
+
+      <section id="Claim" about="https://w3id.org/credentials/#Claim" typeof="rdfs:Property">
+          <h3><span property="rdfs:label">Claim</span></h3>
+          <p property="rdfs:comment">
+            A claim is the statement of trust an issuer makes about a credential recipient. A set of property value pairs, where in each property the issuer asserts one quality or attribute of a credential earner or of an achievement attributable to the earner. Each claim property name is dereferencable to a term definition. 
+          </p>
+
+          <dl>
+          <dt>Status</dt>
+          <dd property="vs:term_status">unstable</dd>
+          <dt>Attribute of</dt>
+          <dd>
+            <a property="rdfs:domain" href="http://schema.org/Intangible">Intangible</a>
+          </dd>
+          <dt>Typically used by</dt>
+          <dd>
+            <a href="#Credential">Credential</a>
+          </dd>
+          <dt>Associated value must be an</dt>
+          <dd>
+            <a property="rdfs:range" href="#ClaimSet">Claim Set</a>
+          </dd>
+        </dl>
+
+          <p>
+            The following example expresses an set of claims about an individual. The claim has the id (here aliased to the JSON-LD keyword "@id") of the identity that is the recipient of the credential and the subject of the claims.
+          </p>
+          <pre class="example prettyprint language-jsonld">
+{
+  "@context": ["https://w3id.org/credentials/v1", "https://w3id.org/identity/v1"],
+  "id": "http://example.com/issuedCredentials/5",
+  "type": "Credential",
+  "claim": {
+    "id": "http://example.org/users/kittensworth"
+    "http://schema.org/image": "http://placekitten.com/100/100/",
+    "name": "Sir Kittensworth"
+  }
+}
+          </pre>
+        </section>
+
+        <section id="" about="https://w3id.org/credentials/#" typeof="rdfs:Property">
+          <h3><span property="rdfs:label"></span></h3>
+          <p property="rdfs:comment">
+            
+          </p>
+
+          <dl>
+          <dt>Status</dt>
+          <dd property="vs:term_status">unstable</dd>
+          <dt>Attribute of</dt>
+          <dd>
+            <a property="rdfs:domain" href="http://schema.org/Intangible">Intangible</a>
+          </dd>
+          <dt>Typically used by</dt>
+          <dd>
+            <a href="#Credential">Credential</a>
+          </dd>
+          <dt>Associated value must be an</dt>
+          <dd>
+            <a property="rdfs:range" href="#ClaimSet">Claim Set</a>
+          </dd>
+        </dl>
+
+          <p>
+            The following example...
+          </p>
+          <pre class="example prettyprint language-jsonld">
+
+          </pre>
+        </section>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="appendix" id="acknowledgements" typeof="bibo:Chapter" resource="#acknowledgements" property="bibo:hasPart">
+      <!--OddPage--><h2 id="h-acknowledgements" resource="#h-acknowledgements"><span property="xhv:role" resource="xhv:heading"><span class="secno">A. </span>Acknowledgements</span></h2>
+      <p>
+        Many thanks to Robin Berjon for making our lives so much easier with his cool tool.
+      </p>
+    </section>
+  
+
+  </body>
+</html>
